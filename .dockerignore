@@ -1,0 +1,7 @@
+.venv
+__pycache__
+*.pyc
+data/*.db
+data/shares
+.streamlit/secrets.toml
+.git

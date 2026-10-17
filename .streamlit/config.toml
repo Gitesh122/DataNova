@@ -1,0 +1,21 @@
+# DataNova — Streamlit configuration (works locally and on Streamlit Community Cloud)
+
+[server]
+maxUploadSize = 1024          # MB (Streamlit Cloud has ~1 GB RAM; keep uploads reasonable)
+runOnSave = false
+
+[client]
+toolbarMode = "auto"          # shows the "Deploy" button when running locally
+showErrorDetails = "full"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#4F46E5"
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap, sans-serif"
+headingFont = "Plus Jakarta Sans:https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&display=swap, sans-serif"
+baseRadius = "0.75rem"
+buttonRadius = "0.6rem"
+showSidebarBorder = true
+chartCategoricalColors = ["#4F46E5", "#06B6D4", "#10B981", "#F59E0B", "#EF4444", "#8B5CF6", "#EC4899", "#14B8A6"]

@@ -1,0 +1,22 @@
+# --- core (required) ---
+streamlit>=1.50          # needs st.navigation, st.iframe, width="stretch"
+pandas>=2.1
+numpy>=1.26
+plotly>=5.24
+scikit-learn>=1.4
+scipy>=1.11
+statsmodels>=0.14        # Holt-Winters, ARIMA, decomposition, OLS trendlines
+openpyxl>=3.1            # read .xlsx
+xlsxwriter>=3.1          # write .xlsx
+pdfplumber>=0.10         # PDF table extraction
+reportlab>=4.0           # PDF reports (no wkhtmltopdf needed)
+matplotlib>=3.8          # fallback chart rendering for PDFs
+requests>=2.31           # load data from URL
+
+# --- optional ---
+# kaleido>=1.0           # pixel-perfect chart images in PDF/e-mail (needs Google Chrome; a built-in renderer is used otherwise)
+pyarrow>=14              # Parquet import/export
+xlrd>=2.0                # legacy .xls files
+# pymongo>=4.6           # store accounts in MongoDB (set DATANOVA_MONGO_URI)
+# anthropic>=0.40        # optional AI analyst chat (set ANTHROPIC_API_KEY)
+# passlib[bcrypt]        # only needed to accept imported bcrypt password hashes

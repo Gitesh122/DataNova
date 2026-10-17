@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+data/datanova.db
+data/shares/
+.streamlit/secrets.toml
+.venv/
